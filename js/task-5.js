@@ -21,4 +21,4 @@ if (newArr.length) {
   console.log("Масив пустий");
 }
 
-newArr;
+newArr.length ? console.log("Масив не пустий") : console.log("Масив пустий");
